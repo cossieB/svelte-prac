@@ -12,6 +12,19 @@
 
 <nav>
 	<Filter label="Years" list={data.years} />
+	<Filter label="Genders" list={["Male", "Female", "Mixed"]} />
 </nav>
 
 {@render children()}
+
+<style>
+	nav {
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: var(--nav-height);
+		background-color: light-dark(#222, #ddd);
+		display: flex;
+		align-items: center;
+	}
+</style>

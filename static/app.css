@@ -1,3 +1,4 @@
 :root {
     interpolate-size: allow-keywords;
+    --nav-height: 2rem
 }
