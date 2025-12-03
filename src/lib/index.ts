@@ -1,8 +1,8 @@
 // place files you want to import through the `$lib` alias in this folder.
 
 import { sql, eq } from "drizzle-orm"
-import { db } from "./server/db"
-import { event } from "./server/db/schema"
+import { db } from "../drizzle"
+import { event } from "../drizzle/schema"
 
 export const resultsQuery = db
     .select({
