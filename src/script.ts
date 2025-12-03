@@ -1,6 +1,6 @@
-import { db } from "./lib/server/db"
+import { db } from "./drizzle"
 import d from "../data.json"
-import { country, discipline, event, games, gender } from "./lib/server/db/schema"
+import { country, discipline, event, games, gender } from "./drizzle/schema"
 import type { PgInsert, PgInsertBase } from "drizzle-orm/pg-core"
 import { sql } from "drizzle-orm"
 

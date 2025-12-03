@@ -1,4 +1,8 @@
 :root {
     interpolate-size: allow-keywords;
-    --nav-height: 2rem
+    --nav-height: 2.5rem
+}
+
+body {
+    background-color: light-dark(#ddd, #222);
 }
